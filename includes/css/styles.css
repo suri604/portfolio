@@ -1,0 +1,239 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+#image{
+   height:75px;
+   width:250px;
+   margin-top:-18px;
+   margin-left:-60px;
+}
+
+.navbar
+{
+   background-color: black;
+}
+
+   
+   
+/* --------------------------------------
+   Carousel
+
+ /*    -------------------------------------- */
+ /*#myCarousel .captions
+ {
+    color:black;
+ }*/
+
+ 
+#myCarousel
+{
+   background-color:azure;
+   margin-top:87px;
+}
+body{
+   background-color: ghostwhite;
+}
+
+
+ #i5,#i6,#i7
+ {
+    width:100%;
+    height:800px;
+ }
+ .head
+ {
+    color:purple;
+ }
+ #p1
+ {  
+    width:100%;
+    margin-left: 0px;
+    
+ }
+ 
+ 
+
+ /*
+#slide1
+{
+   background:url('../../images/gate.jpg') top center no-repeat;
+}
+#slide2
+{
+   background:url('../../images/building.jpg') top center no-repeat;
+}
+#slide3
+{
+   background:url('../../images/images.jpeg') top center no-repeat;
+   
+}
+*/
+#ky
+{
+   height:250px;
+   width:100%;
+}
+#spa
+{  height:250px;
+   width:100%;
+}
+#techie
+{  height:250px;
+   width:100%;
+}
+footer
+{ 
+   background-color: #e3e3e3;
+}
+#placement
+   {
+      margin-top:100px;
+      width:100%;
+      height:380px;
+   }
+#pla
+{
+   text-align:center;
+   font-style: italic;
+   
+}
+#play
+{
+   text-align:center;
+   font-style: italic;
+   
+}
+.lead
+{
+   font-family: sans-serif;
+}
+#meta
+{
+   font-weight:bold;
+}
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+ }
+ .fa {
+   padding: 20px;
+   font-size: 30px;
+   width: 135.5px;
+   text-align: center;
+   text-decoration: none;
+   margin: 5px 2px;
+   margin-top:20px
+ }
+ 
+ .fa:hover {
+     opacity: 0.7;
+ }
+ 
+ .fa-facebook {
+   background: #3B5998;
+   color: white;
+   margin-left: 0 px;
+ }
+ 
+ .fa-twitter {
+   background: #55ACEE;
+   color: white;
+ }
+ 
+ .fa-google {
+   background: #dd4b39;
+   color: white;
+ }
+ 
+ .fa-linkedin {
+   background: #007bb5;
+   color: white;
+ }
+ #pro
+ {
+    width:100%;
+    height:240px;
+ }
+	
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media only screen and (max-width: 600px) {
+   #myCarousel
+   {
+
+      width:100%;
+   }
+   #i5,#i6,#i7{
+      width:100%;
+      height:180px;
+   } 
+   
+    
+}
+
+/* Landscape phone to portrait tablet */
+@media only screen and (min-width: 600px) {
+   
+   #myCarousel
+   {
+
+      width:100%;
+   }
+   #i5,#i6,#i7{
+      width:100%;
+      height:320px;
+   } 
+   
+	
+}
+
+/* Large desktop */
+@media only screen and (min-width: 768px) {
+   #myCarousel
+   {
+
+      width:100%;
+   }
+   #i5,#i6,#i7{
+      width:100%;
+      height:700px;
+   } 
+   
+	
+}
